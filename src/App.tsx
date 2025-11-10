@@ -91,7 +91,7 @@ function App() {
     return (
       <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4">
         <div className="max-w-6xl mx-auto">
-          <header className="text-center mb-12">
+          <header className="text-center mb-4">
             <div className="flex items-center justify-center gap-3 mb-4">
               <Keyboard className="w-12 h-12 text-blue-600" />
               <h1 className="text-5xl font-bold text-gray-800">TypeSpeed</h1>
@@ -112,7 +112,7 @@ function App() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-12 px-4">
       <div className="max-w-6xl mx-auto">
-        <header className="text-center mb-12">
+        <header className="text-center mb-8">
           <div className="flex items-center justify-center gap-3 mb-4">
             <Keyboard className="w-12 h-12 text-blue-600" />
             <h1 className="text-5xl font-bold text-gray-800">TypeSpeed</h1>
