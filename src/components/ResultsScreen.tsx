@@ -22,7 +22,7 @@ export function ResultsScreen({ result, onRestart, onNewTest }: ResultsScreenPro
     <div className="w-full max-w-4xl mx-auto">
       <div className="bg-white rounded-lg shadow-2xl p-8">
         <div className="text-center mb-8">
-          <Trophy className={`w-20 h-20 mx-auto mb-4 ${rating.color}`} />
+          <Trophy className={`w-16 h-16 mx-auto mb-2 ${rating.color}`} />
           <h2 className={`text-4xl font-bold mb-2 ${rating.color}`}>{rating.text}</h2>
           <p className="text-gray-600 text-lg">Test Completed</p>
         </div>
